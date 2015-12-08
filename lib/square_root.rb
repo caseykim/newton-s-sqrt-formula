@@ -1,0 +1,2 @@
+class SquareRoot
+end
