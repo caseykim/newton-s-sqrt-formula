@@ -1,4 +1,4 @@
-NEWTON'S SQRT FORUMLA
+# NEWTON'S SQRT FORUMLA
 
 1. Implement Newton's method for finding the square root of x
 
@@ -21,3 +21,23 @@ to install RSpec
 rspec
 ```
 to run the tests
+---
+
+# Answers
+
+1. `SquareRoot.new(x).compute`
+for x = 2, 1.414213562373095
+
+2. `SquareRoot.new(x).times_iterated`
+for x = 2, 4
+
+3.
+
+```ruby
+SquareRoot.new(x).times_iterated(x/10)
+SquareRoot.new(x).times_iterated(x/5)
+SquareRoot.new(x).times_iterated(x/2)
+```
+
+for x = 2,
+above yields 6, 5, 4 respectively.
