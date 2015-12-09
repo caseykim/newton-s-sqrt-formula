@@ -14,13 +14,10 @@ iterate over this function 10 times and return the result
 
 ```
 bundle
-```
-to install RSpec
-
-```
 rspec
 ```
 to run the tests
+
 ---
 
 # Answers

@@ -19,7 +19,7 @@ class SquareRoot
     result
   end
 
-  def times_iterated(z = number/2.0, range = range)
+  def times_iterated(z = number/2.0, range = @range)
     result ||= z
     count = 0
     while difference(result) > range do
